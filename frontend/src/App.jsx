@@ -25,7 +25,7 @@ function App() {
           const price = e.target.price.value;
           const description = e.target.description.value;
 
-          const res = await fetch("http://localhost:3000/products", {
+          const res = await fetch(`${BACKEND_URL}/products`, {
             headers: {
               "Content-Type": "application/json",
             },
