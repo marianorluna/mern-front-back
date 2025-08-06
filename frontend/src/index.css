@@ -1,0 +1,9 @@
+body {
+    background-color: #101010;
+    color: #fff;
+    font-family: sans-serif;
+    min-width: 340px;
+    max-width: 650px;
+    margin: auto;
+    padding: 10px;
+}
